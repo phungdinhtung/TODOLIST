@@ -1,0 +1,34 @@
+@import "variables";
+
+.loading {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: $opacity-color;
+  z-index: $zIndex-max;
+}
+
+.pagination-dropdown {
+  min-width: 80px;
+}
+
+.pagination-input {
+  width: 50px;
+  border: 1px solid #dee2e6;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.app-alert {
+  position: fixed;
+  top: 30px;
+  right: 30px;
+  z-index: 1021;
+}
+button.close {
+  outline: none;
+  background: transparent;
+  border: none;
+}
