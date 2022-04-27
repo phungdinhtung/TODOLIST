@@ -1,4 +1,4 @@
-1. Clone project
-2. Open folder => npm install
-3. npm start => access http://localhost:3000/
 # to-do-list
+1. Clone project
+2. Open folder => yarn 
+3. yarn start => access http://localhost:3000/
